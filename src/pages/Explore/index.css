@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Notable&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(0deg, #E1B2A0 0%, #5E657B 100%);
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: rgb(79, 86, 111);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.429);
+  z-index: 100;
+  box-sizing: border-box;
+}
+.navbar .navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-left .user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F1E6E2;
+  margin-right: 10px;
+}
+.navbar .navbar-left .navbar-title {
+  font-size: 30px;
+  color: #F1E6E2;
+  font-family: "Notable", serif;
+  font-style: normal;
+  margin-left: 5px;
+}
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+}
+.navbar .navbar-right .search-bar {
+  background: #F1E6E2;
+  border: 1px solid #F1E6E2;
+  border-radius: 20px;
+  padding: 9px 90px;
+  margin-right: 12px;
+  font-size: 14px;
+}
+.navbar .navbar-right .icon-rounded {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F1E6E2;
+}
+
+.carousel-section {
+  margin-top: 70px;
+  padding: 10px;
+  text-align: start;
+
+  box-sizing: border-box;
+
+}
+.carousel-section h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Lexend;
+  color: #F1E6E2;
+  font-style: normal;
+}
+.carousel-section .carousel {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.carousel-section .carousel .carousel-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 10px;
+  padding: 10px 0;
+}
+.carousel-section .carousel .card {
+  min-width: 250px;
+  background: #F1E6E2;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.429);
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.carousel-section .carousel .card .card-image {
+  width: 100%;
+  height: 200px;
+  background-color: #5E657B;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-section .carousel .card .card-description {
+  padding: 10px;
+  font-size: 15px;
+  font-family: Lexend;
+  color: #891D1A;
+}
+.carousel-section .carousel .carousel-button {
+  background-color: #F1E6E2;
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.carousel-section .carousel .carousel-button.prev {
+  margin-right: 10px;
+}
+.carousel-section .carousel .carousel-button.next {
+  margin-left: 10px;
+}
+.carousel-section .carousel .carousel-button:hover {
+  background-color: #e2c5ba;
+}
+
+.orders-section {
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1100px;
+  text-align: start;
+}
+.orders-section h2 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-family: Lexend;
+  color: #F1E6E2;
+  font-style: normal;
+}
+.orders-section .orders-textarea {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #F1E6E2;
+  font-size: 14px;
+  font-family: Lexend;
+}
+
+@media (max-width: 768px) {
+  .navbar .navbar-left .navbar-title {
+    font-size: 20px;
+  }
+
+  .navbar .navbar-right .search-bar {
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .carousel-section h2 {
+    font-size: 20px;
+  }
+
+  .carousel-section .carousel .card {
+    flex: 0 0 150px;
+  }
+
+  .carousel-section .carousel .card .card-image {
+    height: 100px;
+  }
+
+  .orders-section h2 {
+    font-size: 20px;
+  }
+
+  .orders-section .orders-textarea {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar .navbar-right .search-bar {
+    display: none;
+  }
+
+  .navbar .navbar-left .navbar-title {
+    font-size: 18px;
+  }
+
+  .carousel-section h2 {
+    font-size: 18px;
+  }
+
+  .carousel-section .carousel .card {
+    flex: 0 0 120px;
+  }
+
+  .carousel-section .carousel .card .card-image {
+    height: 80px;
+  }
+
+  .orders-section h2 {
+    font-size: 18px;
+  }
+
+  .orders-section .orders-textarea {
+    font-size: 10px;
+  }
+}
