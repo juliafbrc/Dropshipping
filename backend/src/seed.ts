@@ -1,10 +1,16 @@
-const mongoose = require('mongoose');
-const dotenv = require('dotenv');
-const Product = require('./models/product');
+import mongoose from 'mongoose';
+import dotenv from 'dotenv';
+import Product from './models/productModel';
 
 dotenv.config();
-mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
+mongoose.connect(process.env.MONGO_URI || '')
+  .then(() => {
+    console.log('MongoDB conectado');
+  })
+  .catch((err) => {
+    console.error(`Erro ao conectar ao MongoDB: ${err.message}`);
+  });
 const seedProducts = async () => {
   try {
     const products = [
