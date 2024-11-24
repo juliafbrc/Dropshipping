@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-import Product from '../models/productModel';
+import Product from '../models/productModel'; 
 const router = express.Router();
 
 router.get('/', async (req: Request, res: Response): Promise<void> => {
@@ -7,7 +7,6 @@ router.get('/', async (req: Request, res: Response): Promise<void> => {
     const products = await Product.find();
     res.json(products);
   } catch (error) {
-    // Verificando se o erro é uma instância de Error
     if (error instanceof Error) {
       res.status(500).json({ message: error.message });
     } else {
