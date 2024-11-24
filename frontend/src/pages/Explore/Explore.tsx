@@ -65,6 +65,7 @@ const Explore = () => {
           <button className="carousel-button prev" onClick={handlePrev}>
             &#8592;
           </button>
+          
           <div className="carousel-track">
             {products.slice(startIndex, startIndex + cardsToShow).map((product) => (
               <div className="card" key={product._id}>
@@ -76,6 +77,7 @@ const Explore = () => {
               </div>
             ))}
           </div>
+
           <button className="carousel-button next" onClick={handleNext}>
             &#8594;
           </button>
