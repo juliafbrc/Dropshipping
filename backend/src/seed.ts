@@ -18,61 +18,61 @@ const seedProducts = async () => {
         name: 'Tênis Esportivo', 
         description: 'Tênis confortável ideal para corrida e academia.', 
         price: 250, 
-        imageUrl: 'https://images.unsplash.com/photo-1516747773446-609be9bcbe7b?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Camiseta Básica', 
         description: 'Camiseta de algodão com corte unissex.', 
         price: 50, 
-        imageUrl: 'https://images.unsplash.com/photo-1532318065232-34d7a2c32c09?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Relógio Clássico', 
         description: 'Relógio analógico com design elegante.', 
         price: 350, 
-        imageUrl: 'https://images.unsplash.com/photo-1542204637-e67bc6c3ad43?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1669621952687-8ba483e11a9b?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Bolsa Feminina', 
         description: 'Bolsa de couro sintético com amplo espaço interno.', 
         price: 120, 
-        imageUrl: 'https://images.unsplash.com/photo-1553003658-67bf3ef4ffaf?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://plus.unsplash.com/premium_photo-1664392214882-7cecd0a67ccd?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Fone de Ouvido', 
         description: 'Fone de ouvido Bluetooth com cancelamento de ruído.', 
         price: 299, 
-        imageUrl: 'https://images.unsplash.com/photo-1593642531955-b62e4e04c900?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1520005258079-0b2cfc298a22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Jaqueta Jeans', 
         description: 'Jaqueta unissex de alta qualidade.', 
         price: 180, 
-        imageUrl: 'https://images.unsplash.com/photo-1610715907415-0a43d96441c3?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1543076447-215ad9ba6923?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Mochila Escolar', 
         description: 'Mochila resistente com vários compartimentos.', 
         price: 100, 
-        imageUrl: 'https://images.unsplash.com/photo-1529921879218-b2eabb6a14c0?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1490427712608-588e68359dbd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Óculos de Sol', 
         description: 'Óculos com proteção UV e armação leve.', 
         price: 80, 
-        imageUrl: 'https://images.unsplash.com/photo-1512436991641-6745cdb1723f?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Mouse Gamer', 
         description: 'Mouse com iluminação RGB e alta precisão.', 
         price: 150, 
-        imageUrl: 'https://images.unsplash.com/photo-1602585452411-85a1ee66d4f3?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
       { 
         name: 'Smartphone', 
         description: 'Smartphone com câmera de alta qualidade.', 
         price: 1500, 
-        imageUrl: 'https://images.unsplash.com/photo-1569940053174-465acc6fefa5?crop=entropy&cs=tinysrgb&w=800&h=800&fit=crop' 
+        imageUrl: 'https://images.unsplash.com/photo-1600087626014-e652e18bbff2?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' 
       },
     ];
 
