@@ -57,9 +57,7 @@ const Home = () => {
           <div className="outer">
           {products.slice(0, 5).map((image, index) => (
               <div className="card" id={`card${index + 1}`} key={image._id}>
-                <div className="img">
-                  <img src={image.imageUrl} alt={`Imagem ${index + 1}`} />
-                </div>
+                <img src={image.imageUrl} className="img" alt={`Imagem ${index + 1}`} />
                 <div className="stars">
                   <span className="op-star"></span>
                   <span className="op-star"></span>

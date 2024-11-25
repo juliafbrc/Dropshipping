@@ -120,9 +120,9 @@
   margin-top: 2%;
   width: 100%;
   max-width: 550px;
-  height: 350px;
+  height: 500px;
   aspect-ratio: 4/3;
-  border-radius: 5px;
+  border-radius: 25px;
   position: absolute;
   pointer-events: none;
   overflow: hidden;
@@ -140,9 +140,10 @@
   border-radius: 10px;
 }
 
+/* imagens dos cards da home */
 .img {
-  height: 390px;
-  width: 560px;
+  height: 100%;
+  width: 100%;
   border-radius: 5px;
   overflow: hidden;
   background: #fff;
@@ -195,3 +196,32 @@
     height: 50px;
   }
 }/*# sourceMappingURL=index.css.map */
+
+@media (max-width: 1366px) {
+  #home-paragrafo1 {
+    font-size: 1.5rem;
+  }
+
+  #home-titulo {
+    font-size: 8rem;
+  }
+
+  #home-botao-explorar {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cards .card {
+    max-width: none;
+    width: 800px;
+    height: 700px; 
+  }
+
+  .outer .img {
+    max-width: 900px;
+    max-height: 700px;
+  }
+}
