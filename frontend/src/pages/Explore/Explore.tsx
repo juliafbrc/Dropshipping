@@ -53,7 +53,6 @@ const Explore = () => {
           <span className="navbar-title">LOREM IPSUM</span>
         </div>
         <div className="navbar-right">
-          <input type="text" className="search-bar" placeholder="Pesquisar..." />
           <div className="icon-rounded"></div>
         </div>
       </nav>
@@ -71,9 +70,12 @@ const Explore = () => {
               <div className="card" key={product._id}>
                 <div className="card-image">
                   <img className="cardimage" src={product.imageUrl} alt={product.name} />
+                  <h3 className="card-name">{product.name}</h3>
+                  <p className="card-price">${product.price}</p>
+                  <p className="card-description">{product.description}</p>
+                  <button className="card-button">Adicionar</button>
                 </div>
-                <p className="card-description">{product.name}</p>
-                <p className="card-price">${product.price}</p>
+                
               </div>
             ))}
           </div>
@@ -82,15 +84,6 @@ const Explore = () => {
             &#8594;
           </button>
         </div>
-      </div>
-
-      {/* Orders Section */}
-      <div className="orders-section">
-        <h2>Pedidos</h2>
-        <textarea
-          className="orders-textarea"
-          placeholder="Insira seus pedidos aqui..."
-        ></textarea>
       </div>
     </div>
   );
