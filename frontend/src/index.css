@@ -9,6 +9,7 @@
   background-color: #891D1A;
   height: 100%;
   gap: 1rem;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -37,7 +38,7 @@
 
 #home-paragrafo1 {
   color: #E1B2A0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-top: 1rem;
   margin-left: 5%;
   font-family: Lexend;
@@ -46,7 +47,7 @@
 
 #home-titulo {
   color: #F1E6E2;
-  font-size: 6rem;
+  font-size: 11rem;
   margin-left: 5%;
   font-family: Notable;
   font-weight: 400;
@@ -56,14 +57,14 @@
 }
 
 #home-botao-explorar {
-  width: 50%;
-  height: 60px;
+  width: 26.25rem;
+  height: 7.375rem;
   margin-left: 20%;
   background: #E1B2A0;
   border: none;
   border-radius: 20px;
   color: #891D1A;
-  font-size: 1.3rem;
+  font-size: 2.5rem;
   font-family: Lexend;
   font-weight: 900;
   margin-top: 9%;
@@ -82,6 +83,7 @@
   padding: 1rem;
   place-items: center;
 }
+
 .cards #card1 {
   --delay: -1;
 }
@@ -102,6 +104,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.outer .img img {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  object-fit: cover; 
+  border-radius: 10px;
 }
 
 .cards .card {
