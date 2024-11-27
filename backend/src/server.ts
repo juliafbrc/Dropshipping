@@ -1,10 +1,12 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import connectDB from './src/config/db';
-import productRoutes from './src/routes/product';
+import connectDB from './config/db';
+import productRoutes from './routes/product';
 
 dotenv.config();
+
+const mongoURI = process.env.MONGO_URI;
 
 connectDB();
 

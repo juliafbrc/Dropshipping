@@ -4,10 +4,35 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node dist/server.ts",
-    "start": "ts-node server.ts",
-    "seed": "ts-node src/seed.ts"
+    "dev": "ts-node src/server.ts",
+    "seed": "ts-node src/seed.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
