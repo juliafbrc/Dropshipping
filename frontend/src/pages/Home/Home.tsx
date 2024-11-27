@@ -1,28 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom";
 
 interface Product {
   _id: string;
-  imageUrl: string; // Apenas a URL da imagem
+  imageUrl: string;
 }
 
 const Home = () => {
-  const navigate = useNavigate(); // Hook para navegação
+  const navigate = useNavigate();
 
   const handleExploreClick = () => {
-    navigate("/explore"); // Direciona para a página "/explore"
+    navigate("/explore");
   };
 
   const [products, setProducts] = useState<Product[]>([]);
 
-  // Função para buscar as imagens da API
   const fetchProducts = async () => {
     try {
-      const response = await fetch('http://localhost:5000/api/products'); // URL da sua API
+      const response = await fetch('http://localhost:5000/api/products'); 
       const data = await response.json();
-      setProducts(data); // Atualiza o estado com os produtos
-      console.log(products); //
-      console.log(data); //
+      setProducts(data);
+      console.log(products);
+      console.log(data);
     } catch (error) {
       console.error('Erro ao buscar produtos:', error);
     }
