@@ -1,0 +1,17 @@
+{
+    "rewrites": [
+      {
+        "source": "/api/(.*)",
+        "destination": "/backend/dist/$1"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/frontend/dist/$1"
+      }
+    ],
+    "functions": {
+      "backend/dist/**/*.js": {
+        "runtime": "nodejs18.x"
+      }
+    }
+  }
