@@ -1,0 +1,9 @@
+.container {
+    width: 1513px;
+    height: 727px;
+    flex-shrink: 0;
+    background-color: lightgray; /* Cor de fundo para visualização */
+    display: flex;
+    align-items: center;
+  }
+  

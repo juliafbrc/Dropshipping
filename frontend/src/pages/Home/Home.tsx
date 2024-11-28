@@ -38,13 +38,11 @@ const Home = () => {
         <div className="infos">
           <div id="home-paragrafo1">
             <p>
-              Lorem ipsum dolor sit amet, consectetur <br />
-              adipiscing elit, sed do eiusmod tempor incididunt ut <br />
-              labore et dolore magna aliqua.
+              Seja Bem-vindo a
             </p>
           </div>
   
-          <div id="home-titulo">Lorem Ipsum</div>
+          <div id="home-titulo">LuxDrop</div>
   
           <div>
             <button id="home-botao-explorar" onClick={handleExploreClick}>

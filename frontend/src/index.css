@@ -47,7 +47,7 @@
 
 #home-titulo {
   color: #F1E6E2;
-  font-size: 11rem;
+  font-size: 9rem;
   margin-left: 5%;
   font-family: Notable;
   font-weight: 400;
@@ -224,4 +224,12 @@
     max-width: 900px;
     max-height: 700px;
   }
+}
+
+.icon-rounded {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  display: flex;
+  margin: 5px;
 }
