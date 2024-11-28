@@ -81,6 +81,9 @@ Nesta página, os usuários têm acesso à lista completa de produtos disponíve
 
 ---
 
+## **Link do vídeo do YouTube**:
+- **https://youtu.be/oCtoUL4BVa8**
+
 ## **Como Rodar o Projeto Localmente** 🖥️
 
 ### **Pré-requisitos**  
