@@ -42,27 +42,32 @@ Nesta página, os usuários têm acesso à lista completa de produtos disponíve
 
 - **Paleta de Cores**:
   
-  ![image](https://github.com/user-attachments/assets/0ed038b2-b1aa-4ba7-baee-15b42ff64363)
+ ![image](https://github.com/user-attachments/assets/bbc130a5-a9b5-4a65-b4c1-55ba65c34337)
+
   
 - **Página inicial**:
   
-  ![image](https://github.com/user-attachments/assets/d157ae4b-7f4f-423e-b583-7990d0478e9e)
+ ![image](https://github.com/user-attachments/assets/cf5e0b6b-eef8-4337-8ee5-1caa24608fbc)
+
   
 - **Página de explorar**:
-  
-  ![image](https://github.com/user-attachments/assets/f619fc27-d2b7-4d60-98c3-4a796bea958f)
+ 
+ ![image](https://github.com/user-attachments/assets/4f48af10-dd31-494d-8cf8-d502dc59a106)
+
   
 - **Página de carrinho**:
   
-  ![image](https://github.com/user-attachments/assets/f0056628-7d4f-4aac-8b36-54e0080903a9)
+ ![image](https://github.com/user-attachments/assets/a9fceb17-ccc3-4270-a30b-c453a3c08222)
+
   
 - **Finalizar Compra**:
   
-  ![image](https://github.com/user-attachments/assets/4b594f01-1f92-46df-b3c6-b2cbc673ab52)
+ ![image](https://github.com/user-attachments/assets/3d1d4085-b769-4b31-9234-453b0cff307f)
+
   
 - **Logo**:
   
-  ![image](https://github.com/user-attachments/assets/b9f317c6-4e96-47fd-9fd7-50ea0becd421)
+  ![image](https://github.com/user-attachments/assets/c61207e7-4ffd-4781-8cfd-cde22b52aa16)
 
 
 ---
