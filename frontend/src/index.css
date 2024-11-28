@@ -225,3 +225,11 @@
     max-height: 700px;
   }
 }
+
+.icon-rounded {
+  width: 65px;
+  height: 65px;
+  flex-shrink: 0;
+  display: flex;
+  margin: 5px;
+}

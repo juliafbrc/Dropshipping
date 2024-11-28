@@ -44,15 +44,22 @@ const Explore = () => {
   };
 
   return (
+    
     <div className="App">
       {/* Navbar */}
       <nav className="navbar">
         <div className="navbar-left">
-          <div className="user-avatar"></div>
-          <span className="navbar-title">LOREM IPSUM</span>
+          
+          <span className="navbar-title">LuxDrop</span>
         </div>
         <div className="navbar-right">
-          <div className="icon-rounded"></div>
+          <div className="icon-rounded">
+          <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65" fill="none">
+          <rect width="50" height="50" rx="30" fill="#D9D9D9"/>
+          <path d="M14 32C14 29.2386 16.2386 27 19 27H47C49.7614 27 52 29.2386 52 32V36C52 44.2843 45.2843 51 37 51H29C20.7157 51 14 44.2843 14 36V32Z" fill="#891D1A"/>
+          <rect x="22.5" y="15.5" width="20" height="20" rx="7.5" stroke="#891D1A" stroke-width="5"/>
+          </svg>
+          </div>
         </div>
       </nav>
 
